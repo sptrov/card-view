@@ -51,7 +51,6 @@ const CardView = () => {
 
   const categorySelect = (catId) => {
     if (catId) {
-      debugger;
       let filteredProducts =
         //_.orderBy(
         _.filter(products, (p) => {

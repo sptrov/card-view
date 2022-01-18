@@ -22,7 +22,7 @@ const Card = (props) => {
       <div
         className={styles.description}
         // kind of stupid to directly display what comes from the server here, but since I believe
-        //the server should have proper validation agains xss attacsks and so on, and on purpuse of
+        //the server should have proper validation agains xss attacsks, and on purpuse of
         //displaying the data for the task I am using it.
         dangerouslySetInnerHTML={createDescription()}
       ></div>
