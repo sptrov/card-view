@@ -1,0 +1,40 @@
+
+.container {
+  padding: 35px 16px 15px;
+  line-height: 23.5px;
+  color: #4f4f4f;
+  &Main {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .sortContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+
+    .sortOrder,
+    .sortElement {
+      padding: 10px;
+      border-radius: 30px;
+      background-color: beige;
+      cursor: pointer;
+    }
+    .selected {
+      background-color:#e2a82b;
+    }
+    .sortOrder{
+      // background-color:#e2a82b;
+  
+    }
+  }
+
+}

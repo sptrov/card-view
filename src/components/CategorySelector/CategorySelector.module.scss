@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+ 
+  .category,
+  .selectedCategory {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: beige;
+    cursor: pointer;
+  }
+  .selectedCategory {
+    background-color:#e2a82b;
+  }
+}

@@ -1,0 +1,38 @@
+.container {
+  width: 400px;
+  background-color: bisque;
+  border-radius: 30px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .description {
+    padding: 1px 10px;
+  }
+
+  .imageContainer {
+    max-height: 300px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 3px 5px 10px;
+  gap: 5px;
+
+  .category {
+    border-radius: 30px;
+    padding: 5px 15px;
+    background-color: rgb(226, 168, 43);
+  }
+}
